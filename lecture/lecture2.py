@@ -120,3 +120,8 @@ dr = b.difference(a) # dr = {13, 21}
 q=a.union(b).difference(a.intersection(b))# {1, 21,3, 13}
 
 """
+
+# генератор списка
+
+# list_1 = [ (i,i) for i in range ( 1 , 101 ) if i % 2 == 0 ] #[(2,2),(4,4),..., (100, 100)]
+# print(list_1)  
